@@ -27,7 +27,7 @@ linux-g++-64 {
     OBJECTS_DIR = temp/linux-g++-64/obj
     LIBS += ../MixologistLib/lib.linux-g++-64/libMixologist.a
     LIBS += ../ThirdParty/lib/libminiupnpc.a
-    LIBS += ../ThirdParty/liblibssl.a
+    LIBS += ../ThirdParty/lib/libssl.a
     LIBS += ../ThirdParty/lib/libcrypto.a
     LIBS += -lz
 }
